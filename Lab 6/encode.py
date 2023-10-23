@@ -17,6 +17,7 @@ def menu():
 
 
 def encode(password):
+    # list of integers to be converted into a single string
     encoded_password_list = []
     for individual_number in password:
         converted_num = int(individual_number)
